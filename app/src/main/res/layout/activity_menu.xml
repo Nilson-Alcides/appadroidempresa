@@ -6,4 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MenuActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
+            app:srcCompat="@mipmap/ic_logo_inf_foreground" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Menu Cadastrro" />
+
+        <Button
+            android:id="@+id/buttonCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons_app"
+            android:text="Cadastrar" />
+
+        <Button
+            android:id="@+id/buttonConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons_app"
+            android:text="Consultar" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
