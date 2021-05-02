@@ -29,14 +29,14 @@
             android:id="@+id/buttonCadastrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/buttons_app"
+
             android:text="Cadastrar" />
 
         <Button
             android:id="@+id/buttonConsultar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/buttons_app"
+
             android:text="Consultar" />
 
     </LinearLayout>
